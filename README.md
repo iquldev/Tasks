@@ -1,3 +1,5 @@
+<img width="1907" height="992" alt="изображение" src="https://github.com/user-attachments/assets/dbdf4c6e-c6a8-4586-8bbd-59d32f974e6e" />
+
 <div align="left" style="position: relative;">
 <h1>TASKS-APP</h1>
 <p align="left">
