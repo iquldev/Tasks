@@ -27,19 +27,21 @@
         color="white"
         v-model="isChecked"
         size="xl"
-        @change="changeStatus(props.id)"
+        @change="changeStatus()"
       ></UCheckbox>
       <button class="bg-black rounded-sm size-5 text-white cursor-pointer">
         <Icon
           name="material-symbols:delete-forever-rounded"
-          @click="removeTask(props.id)"
+          @click="removeTask()"
         ></Icon>
       </button>
     </div>
   </motion.div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import { motion } from "motion-v";
+
 const isLoaded = ref(false);
 
 const props = defineProps({
