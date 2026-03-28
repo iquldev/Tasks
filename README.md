@@ -105,7 +105,6 @@ Build tasks-app using the following command:
 - [X] **`Task 2`**: MongoDB 
 - [X] **`Task 3`**: Optimization for smartphones
 - [X] **`Task 4`**: Backend implementation
-- [ ] **`Task 5`**: AI???
 
 ---
 
